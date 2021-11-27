@@ -1,0 +1,18 @@
+%btn {
+  border-radius: 0.32rem;
+  border: 2px solid #000;
+  letter-spacing: 0.1rem;
+  padding: 0.25rem;
+  transition: 0.3s linear;
+
+  &:hover {
+    transform: scale(0.98);
+    background-color: hsl(43, 34%, 32%);
+    color: #fff;
+  }
+}
+
+.phone {
+  @extend %btn;
+  background-color: $clr-primary-golden;
+}
